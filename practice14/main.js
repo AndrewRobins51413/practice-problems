@@ -18,7 +18,6 @@ for(var i=0; i<12; i++ ){
   if(arrayFactor === 0){
     factorObject.number[array[i]] = array[i];
 
-    console.log('factorObject', factorObject)
 
   }
   console.log('factorObject', factorObject)
