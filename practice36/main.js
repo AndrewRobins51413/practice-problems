@@ -8,9 +8,23 @@ function vowelFunction() {
     if (vowelString === 'a' ){
       outputVowels = outputVowels + vowelString;
     }
+    else if (vowelString === 'e') {
+      outputVowels = outputVowels + vowelString;
+      }
+    else if (vowelString === 'i') {
+      outputVowels = outputVowels + vowelString;
+    }
+    else if (vowelString === 'o') {
+      outputVowels = outputVowels + vowelString;
+    }
+    else if (vowelString === 'u') {
+      outputVowels = outputVowels + vowelString;
+    }
+    }
+  console.log("outputVowels", outputVowels)
   }
 
-console.log("outputVowels", outputVowels)
-}
+
+
 
 vowelFunction();
