@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  align-content: center;
+  height: 100vh;
+}
+
+.container{
+  height:100%;
+  width: 100%;
+  display: flex;
+  background-color: blueviolet;
+  border: darkblue;
+  border-radius: 5%;
+
+
+}
+
+.divClass {
+  display: flex;
+  height:300px;
+  width: 500px;
+  background-color: cadetblue;
+  border-radius: 30%;
+  border: 2px solid black;
+
+}
+
+.starter {
+  display: flex;
+  height:400px;
+  width: 400px;
+  background-color: rgb(248, 202, 86);
+}
+
+.divLoud {
+  display: flex;
+  height:400px;
+  width: 400px;
+  background-color: rgb(233, 69, 4);
+}
+
+.group{
+  text-align: center;
+}
+
+.input{
+  border: 2px solid black;
+}
