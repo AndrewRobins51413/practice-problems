@@ -1,11 +1,23 @@
-$(function()) {
-  'use strict';
+$(document).ready(initializeApp);
 
+var firstSquare = null;
+var secondSquare = null;
+
+
+function initializeApp() {
+  makeSquare()
+  cardClickHandler()
 }
 
-function fisher(){
-$('#deer44').addClass('divClass');
-var $obj1 = $('<div>').addClass('starter');
-}
+function makeSquare(){
+  $('.bigDiv').addClass('divClass').removeClass('starter')
+  $('.topDiv').addClass('starter')
+  $('#a2').removeClass('starter').addClass('divLoud')
+  $('.bigDiv:nth-child(5)')
+      .removeClass('starter')
+      .addClass('divLoud')
 
-fisher()
+  $('.bigDiv:nth-child(6)')
+    .toggleClass('divLoud')
+
+}
