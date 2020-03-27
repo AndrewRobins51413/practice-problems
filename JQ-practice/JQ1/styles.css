@@ -38,3 +38,11 @@ body{
   width: 400px;
   background-color: rgb(233, 69, 4);
 }
+
+.group{
+  text-align: center;
+}
+
+.input{
+  border: 2px solid black;
+}

@@ -6,7 +6,6 @@ var secondSquare = null;
 
 function initializeApp() {
   makeSquare()
-  cardClickHandler()
 }
 
 function makeSquare(){
@@ -20,4 +19,12 @@ function makeSquare(){
   $('.bigDiv:nth-child(6)')
     .toggleClass('divLoud')
 
+var $group = $('#group-friends');
+
+  $group.prepend('<input type="text" name="boards[]" value="BigRed" placeholder="board\'s Here">');
+
+
+  $group
+      .find('input:last')
+      .remove();
 }
