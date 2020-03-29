@@ -15,8 +15,8 @@ $('#surfreport').on('click').removeClass('hidden')
 });
 
 
-  // $('.bigDiv').addClass('divClass').removeClass('starter')
-  // $('.topDiv').addClass('starter')
+  $('.bigDiv').addClass('divClass').removeClass('starter')
+  $('.topDiv').addClass('starter')
   $('#a2').removeClass('starter').addClass('divLoud')
   $('.bigDiv:nth-child(5)')
       .removeClass('starter')
