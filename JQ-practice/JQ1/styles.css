@@ -4,24 +4,59 @@ body{
   height: 100vh;
 }
 
-.container{
-  height:100%;
+.header{
+  height:10%;
   width: 100%;
+  border: 2px solid darkblue;
+  text-align: center;
+  background-image: linear-gradient(green, white, blue)
+}
+
+.menu{
+  height: 8%;
+  width: 100%;
+  border: 2px solid orange;
+
+}
+
+.buttonClass{
+  font-size: 1em;
+  align-content: center;
+  border: 4px solid blue;
+  border-radius: 5px;
+}
+
+.boardbutton {
+  margin-left: 5%;
+  text-align: center;
+  background-color: darkkhaki;
+  color: lightyellow;
+}
+.container{
+  display: block;
+  height: 70vh;
+  width: 100vw;
   display: flex;
-  background-color: blueviolet;
+  background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/ocean-waves-breaking-on-the-beach-medioimagesphotodisc.jpg');
+  object-fit: cover;
+  object-position: center;
+  background-size: cover;
   border: darkblue;
-  border-radius: 5%;
-
-
+  border-radius: 1%;
 }
 
 .divClass {
   display: flex;
-  height:300px;
-  width: 500px;
-  background-color: cadetblue;
-  border-radius: 30%;
+  height:80%;
+  width: 15%;
+  background-image: url('https://clipartstation.com/wp-content/uploads/2018/10/surfboard-clipart-free-2.jpg');
+  background-position: 7%;
+  border-top-left-radius: 6em 15em;
+  border-top-right-radius: 6em 15em;
+  border-bottom-left-radius: 1em 4em;
+  border-bottom-right-radius: 1em 4em;
   border: 2px solid black;
+  margin: 5%;
 
 }
 
@@ -45,4 +80,12 @@ body{
 
 .input{
   border: 2px solid black;
+}
+.report{
+  height: 50vh;
+  width: 50vw;
+  background-image: url('https://www.surfline.com/surf-report/doheny-state-beach/5842041f4e65fad6a77088d7');
+}
+.hidden{
+  display: none
 }

@@ -5,17 +5,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
   <title>Bounce</title>
   <script src="main.js"></script>
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+  <div class="header">
+    <div><h2>Bob's Boards</h2></div>
+  </div>
+  <div class="menu">
+    <div class='buttonClass'>
+      <button class='boardbutton' id='long'><h4>Long Boards</h4></button>
+      <button class='boardbutton' id='short'><h4>Short Boards</h4></button>
+      <button class='boardbutton' id='boogie'><h4>Boogie Boards</h4></button>
+      <button class='boardbutton' id='surfreport'><h4>Surf Report</h4></button>
+    </div>
+  </div>
+  <div class="container">
+    <div class='bigDiv starter' id="a1"></div>
+    <!-- <div class='bigDiv starter' id="a2"></div> -->
+  </div>
   <div class="input">
     <form id="my-form">
       <div class="group" id="group-friends">
-        <label>Friends</label>
+        <label>Friend</label>
         <input type="text" name="friends[]" value="timmah" placeholder="Name Here">
       </div>
       <div class="group" id="group-boards">
@@ -24,14 +41,8 @@
       </div>
     </form>
   </div>
-
-  <div class="container topDiv">
-    <div class='bigDiv starter' id="a1"></div>
-    <div class='bigDiv starter' id="a2"></div>
-    <div class='bigDiv starter' id="a3"></div>
-    <div class='bigDiv starter' id="a4"></div>
-    <div class='bigDiv starter' id="a5"></div>
-    <div class='bigDiv starter' id="a6"></div>
+  <div class="report hidden">
+    <div>Report</div>
   </div>
 </body>
 
