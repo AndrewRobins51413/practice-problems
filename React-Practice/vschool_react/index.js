@@ -1,9 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
-import React from "react"
-import ReactDOM from "react-dom"
-
 function App() {
   const date = new Date(2018, 6, 31, 15)
   const hours = date.getHours()
@@ -30,5 +27,3 @@ function App() {
 }
 
 ReactDOM.render(<App />, document.getElementById("root"))
-
-ReactDOM.render(<h1>Hello</h1>, document.getElementById("root"))
