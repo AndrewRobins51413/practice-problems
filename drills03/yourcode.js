@@ -42,8 +42,17 @@ function getPathParts(){
 
 }
 
-function getCapitalCount(){
-
+function getCapitalCount(capString){
+  var startCapTotal = null;
+  capString = "Hello how Are ou";
+  for (var i = 0; i<=capString.length; i++){
+    console.log(i)
+    var startCap = capString.startsWith("A"||"H", i)
+    if(startCap === true){
+      startCapTotal = startCapTotal + 1;
+      console.log(startCapTotal)
+    }
+  }console.log(startCapTotal)
 }
 
 function correctCalcChecker(){
